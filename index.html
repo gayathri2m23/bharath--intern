@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styless.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+   <nav id="desktop-nav">
+     <div class="logo">Gayathri</div>
+     <div>
+         <ul class="nav-links">
+            <li><a href="#about">About</a>
+            </li>
+            <li><a href="#contact">Contact</a>
+            </li>
+         </ul>
+       </div>
+    </nav>
+    <nav id="burger-nav">
+        <div class="logo">Gayathri</div> 
+        <div class="burger-menu">
+            <div class="burger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>  
+                <span></span>
+                </div>
+                <div class="menu-links">
+                    <li><a href="#about" onclick="toggleMenu()">About</a>
+                    </li>
+    
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a>
+                    </li>
+                </div>
+        </div>
+    </nav>
+  <section id="profile">
+    <div class="section_pic-container">
+        <img src="profile.png" alt="gayathri profile pic"/>
+    </div>
+    <div class="section_text">
+        <p class="section_text_p1">Hello,I'm</p>
+        <h1 class="title">Gayathri</h1>
+        <p class="section_text_p2">Frontend Developer</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('myresume.pdf')">download resume</button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact' ">Contact Info</button>
+        </div>
+        <div id="socials-container">
+            <img src="linkedin.png" alt="my linkedin" class="icon" onclick="location.href='https://linkedin.com/'"/>
+            <img src="github.png" alt="my linkedin" class="icon" onclick="location.href='https://github.com/'"/>
+        </div>   
+    </div>
+  </section>  
+  <section id="about">
+    <p class="section_text_p1">GET TO KNOW MORE </p>
+    <h1 class="title">ABOUT ME</h1>
+        <div class="section-container">
+            <div class="section_pic-container">
+                <img src="profile1.png" alt="profile pic" class="about-pic"/>
+            </div> 
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                    <img src="experience.ico" alt="bow icon" class="icon"/>
+                   <h3>Experience</h3>
+                   <p>Fresher in<br />Frontend Development</p>
+                </div>
+                 <div class="details-container">
+                    <img src="eduicon.png" alt="education icon" class="icon"/>
+                    <h3>Education</h3>
+                    <p>B.tech. Bachelors in <br />Computer science and engineering</p>
+
+                 </div>
+            </div>
+                <div class="text-container">
+                    <p> I am an aspiring Frontend Developer obtain a responsible position that enables me to grow intellectually, morally and emotionally in new working environment.
+                        I assure to give the best of my potential and enhance my skills through hard work, integrity and rendering my services with complete dedication and commitment towards my work .                </p>
+                       
+                </div>
+                </div>
+            </div>
+       <img src="arrow.ico" alt="arrow icon"
+       class="icon arrow" onclick="location.href='./#contact'"/>     
+  </section>
+  <section id="contact">
+    <p class="section_text_p1">Get in touch</p>
+
+  <h1 class="title">Contact Me</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+    <img src="email-icon-119.png" alt="email icon" class="icon contact-icon email-icon"/>
+    <p><a href="mailto:gayathri2m23@gmail.com">gayathri2m23@gmail.com</a></p>
+  </div>
+  <div class="contact-info-container">
+    <img src="linkedin.png" alt="linkedin icon" class="icon contact-icon"/>
+    <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+  </div>
+  </div>
+
+</section>
+<footer>
+    <nav>
+        <div class="nav-links-container">
+            <ul class="nav-links">
+                <li><a href="#about">About</a>
+                </li>
+                <li><a href="#contact">Contact</a>
+                </li> 
+            </ul>
+        </div>
+    </nav>
+    <p>Copyright &#169; 2024 Gayathri Mamidla. All Rights Reserved</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
